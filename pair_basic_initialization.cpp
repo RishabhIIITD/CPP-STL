@@ -1,0 +1,15 @@
+// Pair
+
+#include<iostream>
+#include<vector>
+#include<algorithm>
+using namespace std;
+
+int main()
+{
+    pair<int, int> p;
+    p.first = 5;
+    p.second = 6;
+    cout<<p.first<<" "<<p.second;
+    return 0;
+}
